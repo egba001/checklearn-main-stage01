@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+    <title>Coffee Roasters</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="/">
+                <img src="./assets/logo.svg" alt="Logo" width="200"/>
+            </a>
+            <nav>
+                <ul class="nav_menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Us</a></li>
+                    <li><a href="#create_plan">Create your plan</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <header>
+        <div class="container header_container">
+            <div class="header_text">
+                <h1>Create plan</h1>
+                <p>Coffee the way you wanted it to be. For coffee delivered tomorrow, or next week. For whatever brew method you use. For choice, for convenience, for quality.</p>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="steps">
+                <div>
+                    <h2>01</h2>
+                    <h3>Pick your cofee</h3>
+                    <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                </div>
+
+                <div>
+                    <h2>02</h2>
+                    <h3>Choose the frequency</h3>
+                    <p>Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                </div>
+
+                <div>
+                    <h2>03</h2>
+                    <h3>Receive and enjoy</h3>
+                    <p>We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="create_plan">
+        <div class="container">
+            <div class="pref_container">
+                <div class="all_pref">
+                    <p><span>01</span> Preference</p>
+                    <p><span>02</span> Bean Type</p>
+                    <p><span>03</span> Quantity</p>
+                    <p><span>04</span> Grind Option</p>
+                    <p><span>05</span> Deliveries</p>
+                </div>
+
+                <div id="accordion_wrapper">
+                </div>
+            </div>
+
+            <div class="order_summary">
+                <h3>Order Summary</h3>
+                <p>"I drink my coffee using <span id="variation">_______</span>, with a <span id="typeOfCoffee">_______</span> type of bean. <span id="quantity">_______</span>, sent to me 
+                <span id="deliveryFrequency">_______</span> "</p>
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <a href="/">
+                    <img src="./assets/logo2.svg" alt="Logo" width="200"/>
+                </a>
+                <ul class="nav_menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Us</a></li>
+                    <li><a href="#create_plan">Create your plan</a></li>
+                </ul>
+                <div class="socials">
+                    <a href="#">
+                        <img src="./assets/facebook.svg" alt="facebook" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/twitter.svg" alt="twitter" />
+                    </a>
+                    <a href="#">
+                        <img src="./assets/instagram.svg" alt="instagram" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js" type="module"></script>
+    <script src="./preferences.js" type="module"></script>
+
+</body>
+</html>
